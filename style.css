@@ -3,7 +3,7 @@
     padding: 0px;
     
 }    
-.parent1{
+.container1{
     height: 30vh;
     padding: 200px;
     background-color: rgba(229, 84, 115, 0.10);
@@ -11,12 +11,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.image{
+.container1-img{
     padding-top: 50px;
     width: 460px;
     
 }
-.paragraph{
+.container1-pagr{
     width: 50%;
     font-size: 18px;
     font-weight: 400;
@@ -25,9 +25,12 @@
     color: #3c3737;
     /* text-shadow: 1px 2px  rgb(69, 69, 69); */
 }
-.paragraph1{
+.pagr{
     padding-bottom: 30px;
 }  
+.pato{
+    padding-top: 50px ;
+}
 .btn{
     border-radius: 4px;
     background: #E55473;
@@ -38,85 +41,7 @@
     padding: 15px 35px;
     
 }
-.headline{
-    font-size: 80px;
-    font-weight: 800;
-    
-}
-.parent2{
-    
-    text-align: center;
-
-}
-.headline1{
-    padding: 30px;
-    font-size: 35px;
-}
-.parent2{
-    font-size: 18px;
-}
-.parent3{
-    padding-bottom: 100px;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-.parent4{
-    height: 100vh;
-    background: url("Rectangle\ 9.png");
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-.parent5{
-    padding: 200px;
-    text-align: center;
-}
-.input{
-    padding: 18px 35px;
-    border: 1px solid #efc9af;
-    border-radius: 4px;
-    background-color: #ebeced
-
-}
-.parent6{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.lastbox{
-    height: 50vh;
-    background-color: rgb(15, 15, 15);
-    text-align: center;
-    color: #ebeced;
-
-}
-.colour1{
-    color: #E55473;
-}
-.parent88{
-    height: 50vh;
-    padding: 30px 200px;
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(229, 84, 115, 0.10);
-  
-}
-.parent77{
-
-text-align: center;
-
-}
-.lastbox-text{
-    text-align: center;
-    padding-top: 85px;
-    
-}
-.ppp{
+.container3{
     height: 80vh;
     padding-left: 150px;
     padding-right: 150px;
@@ -125,7 +50,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
 }
-.ppp1{
+.container3-itm{
     width: 1440px;
     height: 320px;
     padding-left: 150px;
@@ -142,15 +67,25 @@ text-align: center;
     height: 70px;
     
 }
-.ppp2{
+.container2-teal{
+    padding-top: 50px;
     text-align: center;
 }
-.qqq{
-    height: 100vh;
+.container2{
+    height: 70vh;
     background-color: white;
    
 }
-.ttt{
+.container2-heli{
+    font-size: 40px;
+    font-weight: 800;
+}
+.container1-pagr{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.container2-card-itm{
     width: 350px;
     height: 450px;
     margin: 30px;
@@ -159,7 +94,7 @@ text-align: center;
     border-top-Left-radius: 250px;
     border-top-right-radius: 250px;   
 }
-.ttt1{
+.container2-card-itm1{
     width: 350px;
     height: 450px;
     margin: 30px;
@@ -168,7 +103,7 @@ text-align: center;
     border-top-Left-radius: 250px;
     border-top-right-radius: 250px;   
 }
-.ttt2{
+.container2-card-itm2{
     width: 350px;
     height: 450px;
     margin: 30px;
@@ -177,22 +112,102 @@ text-align: center;
     border-top-Left-radius: 250px;
     border-top-right-radius: 250px;   
 }
-.imgsize{
+.container2-card-itm-img{
     padding-top: 150px;
     text-align: center;
 }
-.imgsize11{
+.container2-card-itm-img-wihi{
     width: 200px;
     height: 300px;
+    padding-bottom: 20px;
 
 
 }
-.flex{
-    padding-top: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
+.container2-card-itm-img-wihi2{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+.container2-card{
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+
+.headline{
+    font-size: 80px;
+    font-weight: 800;
+    
+}
+.container5-teal{
+    
+    text-align: center;
+
+}
+.heli{
+    padding: 30px;
+    font-size: 35px;
+}
+
+.container5-itm{
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.container6{
+    height: 100vh;
+    background: url("Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.container6-itm{
+    padding-top: 350px;
+    text-align: center;
+}
+.input{
+    padding: 18px 35px;
+    border: 1px solid #efc9af;
+    border-radius: 4px;
+    background-color: #ebeced
+
+}
+.container5-itm2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.container7{
+    height: 50vh;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    color: #ebeced;
+
+}
+.colour1{
+    color: #E55473;
+}
+.container4{
+    height: 50vh;
+    padding: 30px 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+  
+}
+.container4-teal{
+
+text-align: center;
+
+}
+.container7-itm{
+    padding-top: 100px;
 }
