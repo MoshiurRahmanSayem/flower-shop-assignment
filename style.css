@@ -3,14 +3,15 @@
     padding: 0px;
 }    
 .parent1{
-    height: 375px;
-    padding: 100px;
+    height: 30vh;
+    padding: 200px;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .image{
+    padding-top: 50px;
     width: 460px;
     
 }
