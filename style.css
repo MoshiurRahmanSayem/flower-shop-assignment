@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }    
 .parent1{
     height: 30vh;
@@ -85,3 +86,65 @@
     justify-content: center;
     gap: 20px;
 }
+.lastbox{
+    height: 50vh;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    color: #ebeced;
+
+}
+.colour1{
+    color: #E55473;
+}
+.parent88{
+    height: 50vh;
+    padding: 30px 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+  
+}
+.parent77{
+
+text-align: center;
+
+}
+.lastbox-text{
+    text-align: center;
+    padding-top: 85px;
+    
+}
+.ppp{
+    height: 80vh;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ppp1{
+    width: 1440px;
+    height: 320px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    
+}
+.ppp2{
+    text-align: center;
+}
+
+
+
