@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     
-}    
+} 
+body{
+    font-family: 'Open Sans', sans-serif;
+}   
 .container1{
     height: 30vh;
     padding: 200px;
@@ -28,9 +31,9 @@
 .pagr{
     padding-bottom: 30px;
 }  
-.pato{
-    padding-top: 50px ;
-}
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet"> */
 .btn{
     border-radius: 4px;
     background: #E55473;
@@ -40,6 +43,9 @@
     color: white;
     padding: 15px 35px;
     
+}
+.pato{
+    padding-top: 20px;
 }
 .container3{
     height: 130vh;
@@ -141,8 +147,8 @@
 .headline{
     font-size: 80px;
     font-weight: 800;
-    
-}
+}   
+   
 .container5-teal{
     
     text-align: center;
