@@ -145,6 +145,54 @@ text-align: center;
 .ppp2{
     text-align: center;
 }
+.qqq{
+    height: 100vh;
+    background-color: white;
+   
+}
+.ttt{
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 5px;
+    border-top-Left-radius: 250px;
+    border-top-right-radius: 250px;   
+}
+.ttt1{
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 5px;
+    border-top-Left-radius: 250px;
+    border-top-right-radius: 250px;   
+}
+.ttt2{
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 5px;
+    border-top-Left-radius: 250px;
+    border-top-right-radius: 250px;   
+}
+.imgsize{
+    padding-top: 150px;
+    text-align: center;
+}
+.imgsize11{
+    width: 200px;
+    height: 300px;
 
 
-
+}
+.flex{
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
